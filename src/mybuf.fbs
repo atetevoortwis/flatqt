@@ -1,0 +1,13 @@
+// example IDL file
+
+table Axe {
+    weight: float;
+}
+
+table Monster {  
+  mana:short = 150;
+  hp:short = 100;
+  axe: Axe;
+}
+
+root_type Monster;
